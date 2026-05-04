@@ -7,41 +7,41 @@
 ## Pages
 
 ### דף הבית
-https://example.com
+https://boommarketing.zappy5.app
 BoomMarketing היא סוכנות שיווק דיגיטלי מובילה בישראל. ניהול רשתות חברתיות, קמפיינים ממומנים, הפקת וידאו ואוטומציה חכמה — הכל תחת קורת גג אחת. בואו לגדול איתנו.
 
 ### ניהול רשתות חברתיות
-https://example.com/social-media-management
+https://boommarketing.zappy5.app/social-media-management
 ניהול רשתות חברתיות מקצועי שבונה קהילה, מחזק מותג ומייצר לידים אמיתיים. אסטרטגיה, תוכן ועיצוב שמדברים בשפת הקהל שלכם. קבלו הצעה עוד היום.
 
 ### ניהול קמפיינים ממומנים
-https://example.com/paid-campaign-management
+https://boommarketing.zappy5.app/paid-campaign-management
 ניהול קמפיינים ממומנים בגוגל, פייסבוק ואינסטגרם עם אופטימיזציה מתמדת ודוחות שקופים. אנחנו מוציאים פחות ומכניסים יותר — תנו לנו להוכיח את זה.
 
 ### הפקה ועריכת וידאו
-https://example.com/video-production-editing
+https://boommarketing.zappy5.app/video-production-editing
 הפקה ועריכת וידאו ברמה גבוהה לעסקים שרוצים לבלוט. מרילס ועד סרטוני מותג מלאים — אנחנו יוצרים תוכן ויזואלי שמדבר, משכנע ומניע לפעולה. צרו קשר עכשיו.
 
 ### אינטגרציית אוטומציה AI
-https://example.com/ai-automation-integration
+https://boommarketing.zappy5.app/ai-automation-integration
 אינטגרציית אוטומציה מבוססת AI שחוסכת שעות עבודה, מייעלת תהליכים ומגדילה רווחים. חברו את הכלים החכמים לעסק שלכם ותתחילו לצמוח בלי לעצור. דברו איתנו היום.
 
 ### ייעוץ עסקי ושיווקי
-https://example.com/business-marketing-consulting
+https://boommarketing.zappy5.app/business-marketing-consulting
 ייעוץ עסקי ושיווקי מעמיק שמאתר הזדמנויות, מחדד מיצוב ובונה תוכנית פעולה ברורה. מומחים שמבינים שוק, מספרים ותוצאות — כי הצלחה מתחילה באסטרטגיה נכונה.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://boommarketing.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://boommarketing.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://boommarketing.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -53,8 +53,8 @@ Information about WCAG compliance and accessibility features.
 - Phone (tel): tel:0549405892
 
 ### Contact form
-- URL: https://example.com
-- Endpoint: https://example.com/api/email/contact-form
+- URL: https://boommarketing.zappy5.app
+- Endpoint: https://boommarketing.zappy5.app/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -90,6 +90,6 @@ BoomMarketing is a dynamic Israeli digital marketing agency offering a comprehen
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://example.com/sitemap.xml
-- Robots: https://example.com/robots.txt
-- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Sitemap (XML): https://boommarketing.zappy5.app/sitemap.xml
+- Robots: https://boommarketing.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://boommarketing.zappy5.app/llms-full.txt
