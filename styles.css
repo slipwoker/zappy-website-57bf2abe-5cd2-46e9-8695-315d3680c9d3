@@ -13591,11 +13591,6 @@ nav.navbar .sub-menu li a:hover { color: #FF5A36 !important; background-color: r
 }
 
 /* Hide text nodes specifically */
-#mic-access-tool-general-button::before,
-#mic-access-tool-general-button::after {
-  content: none !important;
-  display: none !important;
-}
 
 /* Hover state - keep text hidden */
 #mic-access-tool-general-button:hover {
@@ -14565,6 +14560,22 @@ html[dir="ltr"] .zappy-products-dropdown .zappy-nav-child > a {
     padding-left: 56px !important;
   }
 }
+
+html[dir="rtl"] .whatsapp-float { right: 20px !important; left: auto !important; }
+html[dir="ltr"] .whatsapp-float, html:not([dir]) .whatsapp-float { left: 20px !important; right: auto !important; }
+
+html[dir="rtl"] #mic-access-tool-general-button, html[dir="rtl"] .mic-access-tool-general-button,
+html[dir="rtl"] #mic-init-access-tool .mic-access-tool-general-button,
+html[dir="rtl"] #mic-init-access-tool #mic-access-tool-general-button,
+html[dir="rtl"] ._access-icon { left: 20px !important; right: auto !important; }
+html[dir="ltr"] #mic-access-tool-general-button, html[dir="ltr"] .mic-access-tool-general-button,
+html[dir="ltr"] #mic-init-access-tool .mic-access-tool-general-button,
+html[dir="ltr"] #mic-init-access-tool #mic-access-tool-general-button,
+html[dir="ltr"] ._access-icon,
+html:not([dir]) #mic-access-tool-general-button, html:not([dir]) .mic-access-tool-general-button,
+html:not([dir]) #mic-init-access-tool .mic-access-tool-general-button,
+html:not([dir]) #mic-init-access-tool #mic-access-tool-general-button,
+html:not([dir]) ._access-icon { right: 20px !important; left: auto !important; }
 
 /* Spec table BiDi fix: isolate cells so mixed LTR/RTL content renders correctly */
 .specs-table th, .specs-table td { unicode-bidi: plaintext !important; }

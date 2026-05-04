@@ -719,9 +719,9 @@ Description: BoomMarketing היא סוכנות שיווק דיגיטלי מוב�
 ### צרו קשר
 
 
-- [business_email]
+- boom.marketing.com@gmai.com
 
-- [business_phone]
+- 0549405892
 
 - [business_address]
 
@@ -1522,9 +1522,9 @@ AI אוטומציה
 ### צרו קשר
 
 
-- [business_email]
+- boom.marketing.com@gmai.com
 
-- [business_phone]
+- 0549405892
 
 - [business_address]
 
@@ -2101,9 +2101,9 @@ ROI ממוצע ללקוחות
 ### צרו קשר
 
 
-- [business_email]
+- boom.marketing.com@gmai.com
 
-- [business_phone]
+- 0549405892
 
 - [business_address]
 
@@ -2718,9 +2718,9 @@ Delivery
 ### צרו קשר
 
 
-- [business_email]
+- boom.marketing.com@gmai.com
 
-- [business_phone]
+- 0549405892
 
 - [business_address]
 
@@ -3359,9 +3359,9 @@ AI הוא כלי — לא מחליף. אנחנו מתכננים כל מערכת 
 ### צרו קשר
 
 
-- [business_email]
+- boom.marketing.com@gmai.com
 
-- [business_phone]
+- 0549405892
 
 - [business_address]
 
@@ -4125,9 +4125,9 @@ BoomMarketing לא רק ייעצו לי — הם עזרו לי לראות את �
 ### צרו קשר
 
 
-- [business_email]
+- boom.marketing.com@gmai.com
 
-- [business_phone]
+- 0549405892
 
 - [business_address]
 
@@ -4336,9 +4336,9 @@ BoomMarketing ("החברה", "אנו", "שלנו") מחויבת להגן על פ
 
 - חברה: BoomMarketing
 
-- אימייל: [business_email]
+- אימייל: boom.marketing.com@gmai.com
 
-- טלפון: [business_phone]
+- טלפון: 0549405892
 
 - כתובת: [business_address]
 
@@ -4398,9 +4398,9 @@ BoomMarketing ("החברה", "אנו", "שלנו") מחויבת להגן על פ
 ### צרו קשר
 
 
-- [business_email]
+- boom.marketing.com@gmai.com
 
-- [business_phone]
+- 0549405892
 
 - [business_address]
 
@@ -4617,9 +4617,9 @@ BoomMarketing מחויבת להנגיש את השירותים לכלל הציב�
 
 - חברה: BoomMarketing
 
-- אימייל: [business_email]
+- אימייל: boom.marketing.com@gmai.com
 
-- טלפון: [business_phone]
+- טלפון: 0549405892
 
 
 
@@ -4680,9 +4680,9 @@ BoomMarketing מחויבת להנגיש את השירותים לכלל הציב�
 ### צרו קשר
 
 
-- [business_email]
+- boom.marketing.com@gmai.com
 
-- [business_phone]
+- 0549405892
 
 - [business_address]
 
@@ -4922,9 +4922,9 @@ BoomMarketing מספקת שיווק דיגיטלי דרך האתר. השירות
 
 - חברה: BoomMarketing
 
-- אימייל: [business_email]
+- אימייל: boom.marketing.com@gmai.com
 
-- טלפון: [business_phone]
+- טלפון: 0549405892
 
 - כתובת: [business_address]
 
@@ -4981,9 +4981,9 @@ BoomMarketing מספקת שיווק דיגיטלי דרך האתר. השירות
 ### צרו קשר
 
 
-- [business_email]
+- boom.marketing.com@gmai.com
 
-- [business_phone]
+- 0549405892
 
 - [business_address]
 

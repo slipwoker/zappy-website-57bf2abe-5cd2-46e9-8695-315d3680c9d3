@@ -231,7 +231,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <!-- Cookie Consent -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
@@ -288,17 +288,39 @@
     </style>
 
     <style id="zappy-widget-visibility">
+      html[dir="rtl"] .whatsapp-float { right: 20px !important; left: auto !important; }
+      html[dir="ltr"] .whatsapp-float, html:not([dir]) .whatsapp-float { left: 20px !important; right: auto !important; }
+      html[dir="rtl"] #mic-access-tool-general-button, html[dir="rtl"] .mic-access-tool-general-button,
+      html[dir="rtl"] #mic-init-access-tool .mic-access-tool-general-button,
+      html[dir="rtl"] #mic-init-access-tool #mic-access-tool-general-button,
+      html[dir="rtl"] ._access-icon { left: 20px !important; right: auto !important; }
+      html[dir="ltr"] #mic-access-tool-general-button, html[dir="ltr"] .mic-access-tool-general-button,
+      html[dir="ltr"] #mic-init-access-tool .mic-access-tool-general-button,
+      html[dir="ltr"] #mic-init-access-tool #mic-access-tool-general-button,
+      html[dir="ltr"] ._access-icon,
+      html:not([dir]) #mic-access-tool-general-button, html:not([dir]) .mic-access-tool-general-button,
+      html:not([dir]) #mic-init-access-tool .mic-access-tool-general-button,
+      html:not([dir]) #mic-init-access-tool #mic-access-tool-general-button,
+      html:not([dir]) ._access-icon { right: 20px !important; left: auto !important; }
       @media (max-width: 768px) { .whatsapp-float { display: flex !important; } }
       @media (min-width: 769px) { .whatsapp-float { display: flex !important; } }
       @media (max-width: 768px) {
         #mic-access-tool-general-button, .mic-access-tool-general-button,
         #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
         ._access-icon { display: flex !important; visibility: visible !important; opacity: 1 !important; pointer-events: auto !important; }
+        #mic-access-tool-box, .mic-access-tool-box, #mic-init-access-tool #mic-access-tool-box,
+        div[id*="mic-access-tool-box"], ._access-menu {
+          visibility: hidden; opacity: 0; pointer-events: auto !important;
+        }
       }
       @media (min-width: 769px) {
         #mic-access-tool-general-button, .mic-access-tool-general-button,
         #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
         ._access-icon { display: flex !important; visibility: visible !important; opacity: 1 !important; pointer-events: auto !important; }
+        #mic-access-tool-box, .mic-access-tool-box, #mic-init-access-tool #mic-access-tool-box,
+        div[id*="mic-access-tool-box"], ._access-menu {
+          visibility: hidden; opacity: 0; pointer-events: auto !important;
+        }
       }
     </style>
 </head>
@@ -314,7 +336,7 @@
     </svg>
   </button>
 
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="0549405892" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
@@ -323,7 +345,7 @@
   <div class="nav-container">
     <div class="nav-right-group"><div class="nav-brand">
       <a href="/" class="logo-link">
-        <img src="/assets/boommarketing-logo.webp" alt="BoomMarketing" class="logo" />
+        <img src="/assets/boommarketing-logo.webp" alt="BoomMarketing" class="logo">
       </a>
     </div><ul class="nav-menu" id="navMenu"><li><a href="/">דף הבית</a></li><li><a href="/social-media-management">ניהול רשתות חברתיות</a></li><li><a href="/paid-campaign-management">ניהול קמפיינים ממומנים</a></li><li><a href="/video-production-editing">הפקה ועריכת וידאו</a></li><li><a href="/ai-automation-integration">אינטגרציית אוטומציה AI</a></li><li><a href="/business-marketing-consulting">ייעוץ עסקי ושיווקי</a></li></ul></div>
 
@@ -407,8 +429,8 @@
             <p>לשאלות או בקשות בנוגע למדיניות פרטיות זו, ניתן לפנות אלינו:</p>
             <ul>
                 <li><strong>חברה:</strong> BoomMarketing</li>
-                <li><strong>אימייל:</strong> <a href="mailto:[business_email]">[business_email]</a></li>
-                <li><strong>טלפון:</strong> <a href="tel:[business_phone]">[business_phone]</a></li>
+                <li><strong>אימייל:</strong> <a href="mailto:boom.marketing.com@gmai.com">boom.marketing.com@gmai.com</a></li>
+                <li><strong>טלפון:</strong> <a href="tel:0549405892">0549405892</a></li>
                 <li><strong>כתובת:</strong> [business_address]</li>
             </ul>
             <p><strong>רשם מאגרי המידע:</strong> לתלונות ניתן לפנות לרשם מאגרי המידע במשרד המשפטים</p>
@@ -426,12 +448,12 @@
 
         <!-- Company Info -->
         <div class="footer-col footer-brand">
-          <img src="/assets/boommarketing-logo.webp" alt="BoomMarketing" class="logo" />
+          <img src="/assets/boommarketing-logo.webp" alt="BoomMarketing" class="logo">
           <p class="footer-tagline">אנחנו מניעים עסקים קדימה עם שיווק דיגיטלי חכם, יצירתי ומדיד. מהאסטרטגיה ועד לביצוע — אנחנו כאן בשבילך.</p>
           <div class="footer-social">
-            <a href="[facebook_handle]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="[instagram_handle]" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            <a href="[whatsapp_handle]" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" aria-label="Facebook" style="display:none !important;"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram" style="display:none !important;"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/972549405892" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
           </div>
         </div>
 
@@ -454,11 +476,11 @@
           <ul class="footer-contact">
             <li>
               <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-              <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+              <span class="contact-text"><a href="mailto:boom.marketing.com@gmai.com">boom.marketing.com@gmai.com</a></span>
             </li>
             <li>
               <span class="contact-icon"><i class="fas fa-phone"></i></span>
-              <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+              <span class="contact-text"><a href="tel:0549405892">0549405892</a></span>
             </li>
             <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
               <span class="contact-text">[business_address]</span></a></li>
@@ -502,6 +524,7 @@
   </div>
 </footer>
     <div data-integration="accessibility:toolbar"></div>
+
 
     <script src="/script.js"></script>
 

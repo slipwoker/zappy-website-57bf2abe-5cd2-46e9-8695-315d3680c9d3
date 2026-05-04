@@ -48,7 +48,9 @@ Information about WCAG compliance and accessibility features.
 
 ## How to Contact Us
 
-- (No contact details configured yet.)
+- Email: boom.marketing.com@gmai.com
+- Phone: 0549405892
+- Phone (tel): tel:0549405892
 
 ### Contact form
 - URL: https://example.com
