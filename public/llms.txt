@@ -1,0 +1,93 @@
+# BoomMarketing — Generative Engine Optimization Map
+
+> BoomMarketing is a dynamic Israeli digital marketing agency offering a comprehensive suite of services including social media management, paid campaign management, video production and editing, AI automation integration, and business and marketing consulting. The brand aims to project a modern, professional, and results-driven image with a user-friendly website experience. Each core service will have its own dedicated landing page, and the site will be built with a strong organic SEO infrastructure for long-term growth.
+
+---
+
+## Pages
+
+### דף הבית
+https://example.com
+BoomMarketing היא סוכנות שיווק דיגיטלי מובילה בישראל. ניהול רשתות חברתיות, קמפיינים ממומנים, הפקת וידאו ואוטומציה חכמה — הכל תחת קורת גג אחת. בואו לגדול איתנו.
+
+### ניהול רשתות חברתיות
+https://example.com/social-media-management
+ניהול רשתות חברתיות מקצועי שבונה קהילה, מחזק מותג ומייצר לידים אמיתיים. אסטרטגיה, תוכן ועיצוב שמדברים בשפת הקהל שלכם. קבלו הצעה עוד היום.
+
+### ניהול קמפיינים ממומנים
+https://example.com/paid-campaign-management
+ניהול קמפיינים ממומנים בגוגל, פייסבוק ואינסטגרם עם אופטימיזציה מתמדת ודוחות שקופים. אנחנו מוציאים פחות ומכניסים יותר — תנו לנו להוכיח את זה.
+
+### הפקה ועריכת וידאו
+https://example.com/video-production-editing
+הפקה ועריכת וידאו ברמה גבוהה לעסקים שרוצים לבלוט. מרילס ועד סרטוני מותג מלאים — אנחנו יוצרים תוכן ויזואלי שמדבר, משכנע ומניע לפעולה. צרו קשר עכשיו.
+
+### אינטגרציית אוטומציה AI
+https://example.com/ai-automation-integration
+אינטגרציית אוטומציה מבוססת AI שחוסכת שעות עבודה, מייעלת תהליכים ומגדילה רווחים. חברו את הכלים החכמים לעסק שלכם ותתחילו לצמוח בלי לעצור. דברו איתנו היום.
+
+### ייעוץ עסקי ושיווקי
+https://example.com/business-marketing-consulting
+ייעוץ עסקי ושיווקי מעמיק שמאתר הזדמנויות, מחדד מיצוב ובונה תוכנית פעולה ברורה. מומחים שמבינים שוק, מספרים ותוצאות — כי הצלחה מתחילה באסטרטגיה נכונה.
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://example.com
+- Endpoint: https://example.com/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel, required)
+  - `message` (textarea, required)
+  - `privacy_consent` (checkbox, required)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About BoomMarketing
+BoomMarketing is a dynamic Israeli digital marketing agency offering a comprehensive suite of services including social media management, paid campaign management, video production and editing, AI automation integration, and business and marketing consulting. The brand aims to project a modern, professional, and results-driven image with a user-friendly website experience. Each core service will have its own dedicated landing page, and the site will be built with a strong organic SEO infrastructure for long-term growth.
+
+## Services/Products
+- ניהול סושיאל מדיה
+- ניהול קמפיינים פרסומיים
+- צילום ועריכת וידאו
+- הטמעת אוטומציות AI
+- ייעוץ עסקי ושיווקי
+
+## Target Audience
+- בעלי עסקים קטנים
+- יזמי מסחר אלקטרוני
+- מייסדי סטארטאפים טכנולוגיים
+
+## Industry
+שיווק דיגיטלי
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
